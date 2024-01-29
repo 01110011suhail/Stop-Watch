@@ -6,7 +6,7 @@ let startbtn = document.getElementById('startbtn');
 let stopbtn = document.getElementById('stopbtn');
 let resetbtn = document.getElementById('resetbtn');
 
-// Initializing variables for milliseconds, seconds, minutes, and hours
+// Initializing variables for milliseconds,  seconds, minutes, and hours
 let msec = 0;
 let sec = 0;
 let min = 0;
