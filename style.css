@@ -1,0 +1,55 @@
+/* Global styling for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+/* Styling for the body element */
+
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* Styling for the stopwatch container */
+
+.stopwatch{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 24px 34px;
+    border-radius: 20px;
+
+
+}
+/* Styling for the timer display */
+
+.timerwacth{
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+/* Styling for button container */
+
+.button{
+    margin-top: 20px;
+}
+/* Styling for buttons */
+
+.btn{
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    margin-inline: 12px;
+    border-radius: 10px;
+    padding: 12px 24px;
+    background-color: var(--clr);
+    cursor: pointer;
+
+}
